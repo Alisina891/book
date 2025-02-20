@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { motion } from 'framer-motion';
 
-export default function MoveButton({light , setLight}) {
+export default function MoveButton({light}) {
     
   return (
     <div className="flex items-center justify-center  bg-gray-400 pl-6 rounded-full ">

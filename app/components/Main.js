@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { tr } from 'framer-motion/client';
 import Image from 'next/image';
 export default function Main({light}) {
   return (

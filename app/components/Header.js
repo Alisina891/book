@@ -47,7 +47,7 @@ export default function Header({light , onClick , setLight}){
         />
         <div className="flex justify-center items-center gap-3 mr-5">
 
-         <div className="sm:hidden "
+         <div className="sm:hidden  cursor-pointer"
          onClick={() => setIsOpen(toggleMenu)}
          >
           <Image

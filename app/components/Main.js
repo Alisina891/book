@@ -15,7 +15,7 @@ export default function Main({light}) {
             />
             <input
             type='text'
-             className='py-1  bg-transparent border-none focus:outline-none placeholder:font-serif'
+             className={`py-1  bg-transparent border-none focus:outline-none placeholder:font-serif ${light ? "placeholder:text-black" : "placeholder:text-white"}`}
              placeholder='Search for anything...' />
         </label>    
         
@@ -36,7 +36,7 @@ export default function Main({light}) {
         transition={{duration: 0.5, repeat: Infinity, ease: "easeInOut" ,delay: 0.4}}
         />
        </div>
-        <div className='flex justify-center items-center gap-4'>
+        <div className='flex justify-center items-center gap-4 mb-5'>
             <p className={light ? 'text-black' : 'text-white'}>&#9426; 2024 Tutiatech,Inc</p>
             <a href='https://github.com/tutiatechnology' >
             <Image

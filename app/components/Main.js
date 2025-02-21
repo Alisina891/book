@@ -15,14 +15,11 @@ export default function Main({light}) {
             />
             <input
             type='text'
-             className='py-1 w-[450px]  bg-transparent border-none focus:outline-none placeholder:font-serif'
+             className='py-1  bg-transparent border-none focus:outline-none placeholder:font-serif'
              placeholder='Search for anything...' />
-        </label>
-        
-            
+        </label>    
         
         </div> 
-       
        <div className='mt-48 flex mb-96'>
        <motion.div
         className='w-4 h-4 bg-blue-400 rounded-full mx-1' 
